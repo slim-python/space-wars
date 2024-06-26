@@ -19,7 +19,7 @@ import {
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const page = (props: any) => {
+const Page = (props: any) => {
   const { id } = props?.params;
 
   const [character, setCharacter] = useState(null);
@@ -160,4 +160,4 @@ const page = (props: any) => {
   );
 };
 
-export default page;
+export default Page;
